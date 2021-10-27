@@ -35,34 +35,19 @@ struct ContentView: View {
                 TrafficLightWindow(color: .green)
                 Spacer()
                 TrafficLightButton()
-//                func startButtonPressed() {
-//                    
-//                    switch CurrentLight {
-//                    case .red:
-//                        greenLight.opacity(0.3)
-//                        redLight.opacity(1)
-//                        currentLight = .yellow
-//                    case .red:
-//                        redLight.opacity(0.3)
-//                        yellowLight.opacity(1)
-//                        currentLight = .green
-//                    case .red:
-//                        greenLight.opacity(0.3)
-//                        yellowLight.opacity(1)
-//                        currentLight = .red
-                    }
-                }
-                    .padding()
-                    .padding()
-                    .padding()
-                    .padding()
             }
         }
-        
-        struct ContentView_Previews: PreviewProvider {
-            static var previews: some View {
-                ContentView()
-            }
-        }
-        
-        
+        .padding()
+        .padding()
+        .padding()
+        .padding()
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
+
